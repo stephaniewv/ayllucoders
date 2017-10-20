@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?g7gs0t');
+  src:  url('fonts/icomoon.eot?g7gs0t#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?g7gs0t') format('truetype'),
+    url('fonts/icomoon.woff?g7gs0t') format('woff'),
+    url('fonts/icomoon.svg?g7gs0t#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e900";
+}
+.icon-headphones:before {
+  content: "\e910";
+}
+.icon-music:before {
+  content: "\e911";
+}
+.icon-play:before {
+  content: "\e912";
+}
+.icon-pacman:before {
+  content: "\e916";
+}
+.icon-clock2:before {
+  content: "\e94f";
+}
+.icon-alarm:before {
+  content: "\e950";
+}
+.icon-bubbles:before {
+  content: "\e96c";
+}
+.icon-bubbles2:before {
+  content: "\e96d";
+}
+.icon-hour-glass:before {
+  content: "\e979";
+}
+.icon-spinner5:before {
+  content: "\e97e";
+}
+.icon-earth:before {
+  content: "\e9ca";
+}
+.icon-evil2:before {
+  content: "\e9f0";
+}
+.icon-frustrated:before {
+  content: "\e9ff";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
